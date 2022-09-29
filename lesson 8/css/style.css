@@ -313,9 +313,23 @@ input {
 
 
 .information {
+   position: relative;
+   content: "";
    display: flex;
    border: 1px solid #C6CBCD;
    height: 501px;
+}
+
+.information::after {
+
+   position: absolute;
+   content: "";
+   width: 199px;
+
+   border: 1px solid white;
+   background-color: white;
+   margin-left: 40px;
+   margin-top: -2px;
 }
 
 .cart-title {
