@@ -110,6 +110,7 @@
    border: 1px solid #FFFFFF;
    bottom: 0;
    opacity: 0.6;
+   background-color: #FFFFFF;
 }
 
 .lorem-ipsum {
@@ -431,6 +432,7 @@ input {
    border: 1px solid #EC7979;
    bottom: 0px;
    left: calc(50% - 85px);
+   background-color: #EC7979;
 }
 
 .textdown {
@@ -602,6 +604,7 @@ input {
    border: 1px solid #EC7979;
    bottom: 0px;
    left: calc(50% - 85px);
+   background-color: #EC7979;
 }
 
 .text-down-4 {
@@ -882,7 +885,6 @@ input {
    color: #FFFFFF;
    padding-top: 90px;
    padding-bottom: 70px;
-
 }
 
 .overlay {
@@ -899,8 +901,7 @@ input {
    opacity: 0.5;
    bottom: 0;
    left: calc(50% - 85px);
-
-
+   background-color: #FFFFFF
 }
 
 .Use-sections {
@@ -968,6 +969,7 @@ input {
    bottom: 0;
    left: calc(50% - 85px);
    opacity: 0.5;
+   background-color: #EC7979;
 }
 
 .text-contact {
