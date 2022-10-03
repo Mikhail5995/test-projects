@@ -435,9 +435,10 @@ input {
 
 /* SECTION-2 */
 .wrapper-2 {
-   max-width: 1170px;
+   max-width: 1200px;
    margin: 0px auto;
    margin-top: 50px;
+   padding: 0px 15px;
 
 }
 
@@ -768,6 +769,7 @@ input {
    max-width: 1510px;
    margin: 0px auto;
    background-color: #F5F5F5;
+   padding: 0px 15px;
 }
 
 .texp-up {
@@ -887,6 +889,7 @@ input {
    max-width: 1200px;
    margin: 0 auto;
    margin-top: 50px;
+   padding: 0px 15px;
 }
 
 .customer {
@@ -1131,7 +1134,8 @@ input {
 /* SECTION-6 */
 .wrapper-6 {
    margin: 0 auto;
-   margin-top: 100px;
+   margin-top: 50px;
+   padding: 0px 15px;
 }
 
 
