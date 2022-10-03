@@ -92,7 +92,7 @@
 .AXIT-info {
    height: 1024px;
    background: url(../css/assets/img/city.svg) no-repeat;
-   background-size: 100%;
+   /* background-size: 100%; */
    background-size: cover;
 }
 
@@ -669,6 +669,7 @@ input {
 @media (max-width:1200px) {
    .textup::before {
       width: 140px;
+      left: calc(50% - 70px);
    }
 }
 
@@ -903,6 +904,13 @@ input {
    line-height: 42px;
 }
 
+@media (max-width:1200px) {
+   .customer-text {
+      font-size: 24px;
+      line-height: 28px;
+   }
+}
+
 .lorem-text {
    font-family: 'Raleway';
    font-style: normal;
@@ -910,6 +918,13 @@ input {
    font-size: 18px;
    line-height: 21px;
    color: #86878B;
+}
+
+@media (max-width:1200px) {
+   .lorem-text {
+      font-size: 14px;
+      line-height: 16px;
+   }
 }
 
 .customer::before {
@@ -922,6 +937,13 @@ input {
    left: calc(50% - 85px);
 }
 
+@media (max-width:1200px) {
+   .customer::before {
+      width: 140px;
+      left: calc(50% - 70px);
+   }
+}
+
 .title-lorem {
    margin-top: 30px;
    margin-bottom: 83px;
@@ -930,21 +952,28 @@ input {
 
 .customer-info {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
 }
 
+
+
 .cart-5 {
-   display: inline-block;
-   width: 370px;
+   display: flex;
+   width: 33.3%;
    height: 336px;
    margin-top: 30px;
    text-align: center;
-   margin-right: 30px;
+   /* margin-right: 30px; */
 }
 
-.customer-1 {
-   margin-left: 20px;
+@media (max-width:1200px) {
+   .cart-5 {
+      width: 317px;
+      height: 309px;
+      margin-right: 20px;
+   }
 }
+
 
 .cart-text {
    position: relative;
@@ -977,11 +1006,37 @@ input {
    line-height: 21px;
 }
 
+@media (max-width:1200px) {
+   .style-text {
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
+
+.cart-name {
+   align-self: center;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+
+}
+
+@media (max-width:1200px) {}
+
 .cart-profile {
+   display: flex;
+   flex-direction: column;
+   align-items: revert;
    width: 370px;
    height: 200px;
    position: absolute;
    content: "";
+}
+
+@media (max-width:1200px) {
+   .cart-profile {
+      padding-left: 50px;
+   }
 }
 
 .cart-profile-img-Davis {
@@ -991,13 +1046,16 @@ input {
    width: 70px;
    height: 70px;
    background: url(../css/assets/img/Davis.svg) no-repeat center/cover;
-   background-color: #EC7979;
    border-radius: 50%;
 }
 
 .cart-profile-name {
    margin-top: 85px;
+   display: flex;
+   align-self: center;
+   margin-top: 85px;
 }
+
 
 .cart-profile-img-Jaydon {
    position: absolute;
@@ -1019,6 +1077,13 @@ input {
    background: url(../css/assets/img/Cooper.svg) no-repeat center/cover;
 }
 
+@media (max-width:1200px) {
+   .photo-actor {
+      width: 60x;
+      height: 60px;
+   }
+}
+
 .cart-profile-name {
    font-family: 'Open Sans';
    font-style: normal;
@@ -1026,6 +1091,13 @@ input {
    font-size: 24px;
    line-height: 33px;
    color: #000000;
+}
+
+@media (max-width:1200px) {
+   .cart-profile-name {
+      font-size: 18px;
+      line-height: 25px;
+   }
 }
 
 .name-1 {
@@ -1049,6 +1121,13 @@ input {
    margin-left: 100px;
 }
 
+@media (max-width:1200px) {
+   .manager {
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
+
 /* SECTION-6 */
 .wrapper-6 {
    margin: 0 auto;
@@ -1061,7 +1140,7 @@ input {
    width: 100%;
    height: 442px;
    background: url(../css/assets/img/image.svg) no-repeat;
-   background-size: 100%;
+   background-size: cover;
 }
 
 
@@ -1097,6 +1176,18 @@ input {
    background-color: #FFFFFF
 }
 
+@media (max-width:1200px) {
+   .design {
+      font-size: 24px;
+      line-height: 28px;
+   }
+
+   .design::before {
+      width: 140px;
+      left: calc(50% - 70px);
+   }
+}
+
 .Use-sections {
    font-family: 'Raleway';
    font-style: normal;
@@ -1109,6 +1200,13 @@ input {
    opacity: 0.7;
 }
 
+@media (max-width:1200px) {
+   .Use-sections {
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
+
 .push {
    display: flex;
    justify-content: center;
@@ -1118,11 +1216,6 @@ input {
 
 .Download-2 {
 
-   font-family: 'Open Sans';
-   font-style: normal;
-   font-weight: 600;
-   font-size: 18px;
-   line-height: 25px;
    width: 370px;
    height: 58px;
    background-color: transparent;
@@ -1136,6 +1229,21 @@ input {
    background-color: white;
    color: black;
    box-shadow: inset 0 0 80px;
+}
+
+.Download-2-text {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+@media (max-width:1200px) {
+   .Download-2 {
+      width: 318px;
+      height: 58px;
+   }
 }
 
 
@@ -1178,6 +1286,21 @@ input {
    padding-top: 50px;
 }
 
+@media (max-width:1200px) {
+   .text-contact {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+   }
+
+   .text-contact-us::before {
+      width: 140px;
+      left: calc(50% - 70px);
+   }
+}
+
 .Lorem-contact {
    display: flex;
    justify-content: center;
@@ -1193,6 +1316,13 @@ input {
    color: #86878B;
 }
 
+@media (max-width:1200px) {
+   .Lorem-contact-text {
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
+
 .info-clietn {
    align-self: center;
 }
@@ -1206,7 +1336,15 @@ input {
 .group-left-6 {
    margin-left: 170px;
    width: 570px;
-   height: 200px;
+   height: 38px;
+}
+
+@media (max-width:1200px) {
+   .group-left-6 {
+      width: 486px;
+      height: 38px;
+      margin-left: 0px;
+   }
 }
 
 .group-right-6 {
@@ -1225,7 +1363,6 @@ input {
    background-color: transparent;
    outline: none;
    padding-bottom: 10px;
-
 }
 
 label {
@@ -1236,6 +1373,7 @@ input {
    font-size: 20px;
    width: 400px;
 }
+
 
 input::placeholder {
    font-family: 'Open Sans';
@@ -1274,6 +1412,13 @@ input::placeholder {
    cursor: pointer;
 }
 
+@media (max-width:1200px) {
+   .Send-Message {
+      width: 318px;
+      height: 58px;
+   }
+}
+
 .Send-Message:hover {
    background-color: red;
    box-shadow: inset 0 0 30px;
@@ -1306,6 +1451,14 @@ input::placeholder {
    color: #FFFFFF;
 }
 
+@media (max-width:1200px) {
+   .icons {
+      width: 45px;
+      height: 45px;
+      margin-right: 27px;
+   }
+}
+
 .Axure {
    text-align: center;
    color: rgba(255, 255, 255, 0.5);
@@ -1315,4 +1468,11 @@ input::placeholder {
    font-weight: 400;
    font-size: 18px;
    line-height: 21px;
+}
+
+@media (max-width:1200px) {
+   .Axure {
+      font-size: 14px;
+      line-height: 16px;
+   }
 }
